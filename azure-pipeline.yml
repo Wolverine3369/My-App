@@ -10,7 +10,7 @@ pool:
   vmImage: 'windows-latest'
 
 variables:
-  dotnetSdkVersion: '6.x'
+  dotnetSdkVersion: '7.x'
 
 steps:
 - task: UseDotNet@2
